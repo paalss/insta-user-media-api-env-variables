@@ -3,13 +3,16 @@
 
 ## localhost setup
 
-Clone repo
+Lag .env-fil med innhold:
 
-Åpne terminal i repo og kjør:
+```
+ACCESS_TOKEN="Sett inn Instagram access token"
+```
+
+kjør i terminal
 
 ```
 npm install
-
 npm run dev
 ```
 
