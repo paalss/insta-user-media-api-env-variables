@@ -42,6 +42,9 @@ fetch(`https://graph.instagram.com/me/media?fields=id,media_url,media_type,capti
     app.get('/', (req, res) => res.render('index', {
       media: dataResultImages
     }))
+    app.get('/index2', (req, res) => res.render('index2', {
+      media: dataResultImages
+    }))
   })
 
 // app.use(express.static(path.join(__dirname, '/public')));
