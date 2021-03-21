@@ -22,12 +22,25 @@ fetch(`https://graph.instagram.com/me/media?fields=id,media_url,media_type,capti
   .then(res => res.json())
   .then(res => {
     const dataResult = res.data
+    var dataResultImages = []
+
+    for (let i = 0; i < dataResult.length; i++) {
+      const element = dataResult[i]
+      if (element.media_type == 'IMAGE' || element.media_type == 'CAROUSEL_ALBUM') {
+        dataResult.splice(i, element)
+        console.log(element.media_type)
+        dataResultImages.push(element)
+      }
+    }
+
+    console.log(dataResultImages);
+
     // log første resultat
     // console.log(dataResult[0])
+    
     // homepage route
     app.get('/', (req, res) => res.render('index', {
-      title: 'Instagram API',
-      media: dataResult
+      media: dataResultImages
     }))
   })
 

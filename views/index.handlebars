@@ -1,6 +1,6 @@
 <div class="flex">
   {{#each media}}
-  <a href="{{this.media_url}}" data-lightbox="gallery">
+  <a href="{{this.media_url}}" data-lightbox="gallery" data-title="{{this.caption}}">
     <div class="frame">
       <img src="{{this.media_url}}" alt="{{this.caption}}">
     </div>
