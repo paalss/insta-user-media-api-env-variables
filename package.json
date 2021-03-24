@@ -1,7 +1,7 @@
 {
-  "name": "insta-user-media-api-env-variables",
+  "name": "instagram-gallery",
   "version": "1.0.0",
-  "description": "insta api hvor sensitive detaljer lagres i .env",
+  "description": "En egen nettside som fremstår som en underside av porteføljen min",
   "main": "index.js",
   "scripts": {
     "start": "node index",
