@@ -12,7 +12,7 @@ nav.innerHTML = `
           <li><a href="https://paalss.github.io/portfolio/webWork/maclean.html">Alistair Maclean nettside redesign</a></li>
         </ul>
       </li>
-      <li><a href="/index2" class="fritid">Fritid</a></li>
+      <li><a href="/portfolio" class="fritid">Kunst</a></li>
     </ul>
   </div>
 `

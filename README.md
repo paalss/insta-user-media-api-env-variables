@@ -3,9 +3,11 @@
 
 ## Besøk siden
 
-**Bare galleriet:** [https://insta-api-demo.herokuapp.com/](https://insta-api-demo.herokuapp.com/)
+**Bare galleriet:** [https://paalss-instagram-gallery.herokuapp.com/](https://paalss-instagram-gallery.herokuapp.com/)
 
-**Galleriet pakket inn i portefølje GUI:** [https://insta-api-demo.herokuapp.com/index2](https://insta-api-demo.herokuapp.com/index2)
+**Galleriet pakket inn i portefølje GUI:** [https://paalss-instagram-gallery.herokuapp.com/portfolio](https://paalss-instagram-gallery.herokuapp.com/portfolio)
+
+Nettsiden kan ta 15 sekunder å laste inn :(.
 
 ## Localhost setup
 
